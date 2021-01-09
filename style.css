@@ -49,12 +49,18 @@ td.empty {
 .menu-item {
   /* position: relative; */
   padding: 0.5em;
+  
   /* display: inline-block; */
 }
-.menu-item a {
+a .menu-item {
   text-decoration: none;
   color: white;
 }
+a .menu-item-drop {
+  text-decoration: none;
+  color: white;
+}
+
 .menu-item:hover {
   background-color: indigo;
   cursor: pointer;
@@ -62,6 +68,7 @@ td.empty {
 .menu-item .dropdown {
   display: none;
 }
+
 .menu-item:hover .dropdown {
   display: block;
   position: absolute;
@@ -71,11 +78,17 @@ td.empty {
   min-width: 150px;
   background-color: darkslateblue;
 }
-.dropdown-item {
+a .dropdown-item {
   position: relative;
   padding: 0.5em;
   display: block;
+  text-decoration: none;
+  color: white;
 }
 .dropdown-item:hover {
   background-color: indigo;
+}
+
+a {
+  text-decoration: none;
 }
