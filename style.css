@@ -1,0 +1,81 @@
+h1,h2 {
+  color: cornflowerblue;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 20px;
+  /* background-color:aliceblue; */
+  margin:0px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td{
+  border: 1px solid black;
+  padding: 3px;
+}
+
+td.empty {
+  background-color: #ddd;
+}
+
+.container {
+  margin: 0 auto;
+  margin-left: 10%;
+  padding: 15px;
+  padding-left: 5%;
+  max-width: 1200px;
+  display: inline-block;
+  
+}
+
+#menu {
+  position: fixed;
+  display: inline-block;
+  top:0;
+  width: 10%;
+  height: 100%;
+  background-color: darkslateblue;
+  font-family: sans-serif;
+  color: white;
+}
+.page-name {
+  font-weight: bold;
+}
+.menu-item {
+  /* position: relative; */
+  padding: 0.5em;
+  /* display: inline-block; */
+}
+.menu-item a {
+  text-decoration: none;
+  color: white;
+}
+.menu-item:hover {
+  background-color: indigo;
+  cursor: pointer;
+}            
+.menu-item .dropdown {
+  display: none;
+}
+.menu-item:hover .dropdown {
+  display: block;
+  position: absolute;
+  /* top: 10em; */
+  left: 100%;
+  /* height: 200px; */
+  min-width: 150px;
+  background-color: darkslateblue;
+}
+.dropdown-item {
+  position: relative;
+  padding: 0.5em;
+  display: block;
+}
+.dropdown-item:hover {
+  background-color: indigo;
+}
