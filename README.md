@@ -1,2 +1,2 @@
-# cayla-seaman.github.io
+# caylaseaman.github.io
 Webpage
